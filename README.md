@@ -3,14 +3,14 @@ Scrape emails having subject "Thank You for applying" and filter them out to a c
 # For this, following steps are required.  
 
 1. The user has to enable imap setting in his/her gmail account.  
-  1. Click on settings.  
-  2. Select the tab “Forwarding and POP/IMAP.  
-  3. Select “Enable IMAP.  
-  4. Click on Save Changes.  
+    1. Click on settings.  
+    2. Select the tab “Forwarding and POP/IMAP.  
+    3. Select “Enable IMAP.  
+    4. Click on Save Changes.  
 2. The user also has to enable “Less Secure Apps Access”.  
-  1. Click on profile picture of gmail account and click on manage google account.  
-  2. Select Security Tab from left side menu.  
-  3. Now select Less Secure App Access and drag the slider to “ON”.  
+    1. Click on profile picture of gmail account and click on manage google account.  
+    2. Select Security Tab from left side menu.  
+    3. Now select Less Secure App Access and drag the slider to “ON”.  
 3. After both the above steps are done, the code will be able to login into gmail and filter out specific emails.   
 
 # Moving  to the code.  
@@ -39,10 +39,10 @@ Scrape emails having subject "Thank You for applying" and filter them out to a c
 2. Save it.  
 3. Open command prompt/ terminal.  
 4. You need to pip install libraries if not already present.  
-  1. pip install imaplib  
-  2. pip install email  
+    1. pip install imaplib  
+    2. pip install email  
 5. Go to the directory where the code is saved.  
 6. To run the code  
-  1. python LA_Internship.py  
+    1. python LA_Internship.py  
 7. Go to your gmail account and refresh the page to see the category with the filtered out emails.  
 
