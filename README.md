@@ -1,6 +1,6 @@
 # Love_Alert_Internship
 Scrape emails having subject "Thank You for applying" and filter them out to a category "Job" on gmail. 
-# For this, following steps are required.  
+#  Following steps are required for not raising login error.    
 
 1. The user has to enable imap setting in his/her gmail account.  
     1. Click on settings.  
@@ -13,7 +13,7 @@ Scrape emails having subject "Thank You for applying" and filter them out to a c
     3. Now select Less Secure App Access and drag the slider to “ON”.  
 3. After both the above steps are done, the code will be able to login into gmail and filter out specific emails.   
 
-# Moving  to the code.  
+# Explanation of the code.  
 
 1. The user has to give his/her email address and also password to be able to login via code.  
 2. An imap url is also mentioned in your google account which is used.  
