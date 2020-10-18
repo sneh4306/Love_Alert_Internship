@@ -1,5 +1,5 @@
 # Love_Alert_Internship
-Scrape emails having subject "Thank You for applying" and filter them out to a category Job on gmail. 
+Scrape emails having subject "Thank You for applying" and filter them out to a category "Job" on gmail. 
 # For this, following steps are required.  
 
 1. The user has to enable imap setting in his/her gmail account.  
